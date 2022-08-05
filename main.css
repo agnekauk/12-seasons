@@ -1,0 +1,38 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    width: 800px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/teton_tarn_sunrise.jpg);
+    background-repeat: none; */
+}
+
+/* p {
+    align-self: center;
+    background-color: #fff;
+}
+
+form {
+    align-self: center;
+} */
+
+body {
+    display: grid;
+    justify-content: center;
+}
+.big-picture {
+    width: 700px;
+    height: 400px;
+    object-fit: fill;
+}
+.small-picture {
+    height: 100px;
+}
+.row-small > img:first-child {
+    margin-left: 40px;
+}
+.row-small > img {
+    margin-left: 12px;
+}
